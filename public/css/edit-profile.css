@@ -1,0 +1,43 @@
+.title {
+    text-align: center;
+}
+.background-image {
+    width: 840px;
+    height: 150px;
+    margin-top: 5px;
+}
+.avatar-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+.profile-banner-user {
+    padding-left: 6vw;
+    flex: 0 0 auto;
+    padding-right: 10px;
+    margin: 0 10px;
+}
+.profile-banner-user img.avatar {
+    max-width:150px;
+    max-height:150px;
+    background-color: #242424;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-width: 5px;
+    padding: 5px 5px 0;
+    margin-bottom: 1px;
+}
+input[type="file"] {
+    display: none;
+}
+label:hover {
+    cursor: pointer;
+}
+#save {
+    margin-left: 20%;
+}
+#cancel {
+    margin-right: 20%;
+    float: right;
+}

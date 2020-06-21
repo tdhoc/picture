@@ -1,0 +1,88 @@
+
+div.panel-title .pull-right {
+    margin-left: 10px;
+}
+
+/* profile banner */
+.avatar-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.profile-banner-user {
+    padding-left: 6vw;
+    flex: 0 0 auto;
+    padding-right: 10px;
+}
+.profile-banner-user img.avatar {
+    max-width:150px;
+    max-height:150px;
+    background-color: #242424;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-width: 5px;
+    padding: 5px 5px 0;
+    margin-bottom: 1px;
+}
+
+.profile-banner-user-info {
+    display: inline-block;
+    position: relative;
+    min-width: 100px;
+    text-align: center;
+}
+.profile-banner-user-info span.username {
+    font-weight:bold;
+    font-size:22px;
+    color:rgb(255, 255, 255);
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.9);
+}
+.profile-banner-user-info div.btn-group {
+    margin-top:-15px;
+    position: static;
+}
+.profile-banner-user-info div.online-info {
+    margin-bottom: 10px;
+}
+
+
+@media(max-width:1000px) {
+
+
+    .profile-banner-user {
+        padding-right: 0;
+        margin-bottom: 15px;
+    }
+    .profile-banner-user img.avatar {
+        border-radius: 5px;
+        padding: 5px;
+        margin: 0;
+    }
+
+    .profile-banner-user-info {
+        margin-top: 10px;
+    }
+
+}
+
+@media(max-width:500px) {
+    .profile-banner-user {
+        padding: 0;
+        text-align: center;
+    }
+}
+/* end profile banner */
+
+/* quick links */
+@media(max-width: 600px)
+{
+    .panel-quick-links {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .panel-quick-links > * {
+        margin: 5px 2px 0;
+        flex: 1 0 200px;
+    }
+}
+/* end quick links */
